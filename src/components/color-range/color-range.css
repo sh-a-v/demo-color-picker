@@ -1,0 +1,13 @@
+.color-range {
+  display: flex;
+  align-items: center;
+}
+
+.color-range_label {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.color-range_input {
+  margin: 0 0 0 10px;
+}

@@ -1,0 +1,16 @@
+.color-picker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+
+  user-select: none;
+}
+
+.color-picker_range {
+  padding: 4px 0;
+}
