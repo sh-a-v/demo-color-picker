@@ -6,7 +6,7 @@ import ColorPicker from '../src/components/color-picker';
 import ColorRange from '../src/components/color-range';
 
 describe('<ColorPicker />', () => {
-  const wrapper = shallow(<ColorPicker value={[0, 0, 0]} />);
+  const wrapper = shallow(<ColorPicker value={[0, 0, 0]} onChange={() => {}} />);
 
   it('renders three <ColorRange /> components', () => {
     expect(wrapper.find(ColorRange)).to.have.length(3);

@@ -32,9 +32,11 @@ class ColorPicker extends Component {
 
   handleColorRangeChange(colorRangeIndex, colorRangeValue) {
     let { value } = this.state;
+    let { onChange } = this.props;
 
     value[colorRangeIndex] = colorRangeValue;
     this.setState({ value });
+    onChange(value);
   }
 
   render() {

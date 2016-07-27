@@ -11,7 +11,7 @@ class App extends Component {
   }
 
   handleColorPickerChange(color) {
-    console.info(`color is ${color}`);
+    console.log('color is', color);
   }
 
   render() {
